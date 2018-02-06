@@ -2,16 +2,16 @@
 #include<conio.h>
 void main()
 {
-int s=0,n,n1,remainder;
+int a=0,n,n1,remainder;
 clrscr();
 scanf("%d",&n);n1=n;
 while(n>0)
 {
 reainder=n%10;
-s=s+(reainder*remainder*remainder);
+a=a+(reainder*remainder*remainder);
 n=n/10;
 }
-if(n1==s)
+if(n1==a)
 {
 printf("armstrong num");
 }
