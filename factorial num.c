@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int s=1,h,i;
+int a=1,n,i;
 clrscr();
-scanf("%d",&h);
-for(i=1;i<=h;i++)
+scanf("%d",&n);
+for(i=1;i<=n;i++)
 {
-s=s*i;
+a=a*i;
 }
-printf("the factorial is%d",s);
+printf("the factorial is%d",a);
 getch();
 }
