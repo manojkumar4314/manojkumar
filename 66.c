@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() 
+#include<conio.h>
+void main() 
 {
     int n,i,count=0;
     scanf("%d",&n);
@@ -18,5 +19,5 @@ int main()
     {
         printf("no");
     }
-	return 0;
+	getch();
 }
