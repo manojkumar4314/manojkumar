@@ -1,20 +1,20 @@
 #include <stdio.h>
-int main() 
+void main() 
 {
-	int n,r,l,i;
-	scanf("%d",&n);
+	int k,r,l,i;
+	scanf("%d",&k);
 	scanf("%d %d",&l,&r);
 	for(i=l;i<r;i++)
 	{
-	    if(n>=l&&n<=r)
+	    if(k>=l&&k<=r)
 	    {
-	        printf("yes..%d is between %d and %d",n,l,r);
+	        printf("yes..%d is between %d and %d",k,l,r);
 	        break;
 	    }
 	}
-	  if(!(n>=l&&n<=r))
+	  if(!(k>=l&&k<=r))
 	   {
 	        printf("it is not");
 	   }
-	return 0;
+	getch();
 }
